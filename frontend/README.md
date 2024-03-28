@@ -1,5 +1,10 @@
 # 개발환경 설명
 
+## 초기 세팅
+
+- 기타 파일 설명/.env파일 추가
+- 기타 파일 설명/package.json 패키지 설치
+
 ## 절대 경로 설정
 
 - src 폴더 밖에 있는 jsconfig.json은 절대 경로를 위한 파일입니다.
@@ -45,7 +50,7 @@
 - .gitignore: 깃에 올리지 않을 파일, 디렉토리를 선언해주는 곳
 - .prettierrc: 코드 스타일, 컨벤션을 잡아주는 역할 수행, 내용에 대한 설명은 prettier 설정 참고
 - package.json: react에서 사용하는 라이브러리를 모아두는 곳
-  - 처음에 프로젝트를 클론한 후 터미널에 cd frontend를 입력한 후 npm i를 입력하면 package.json에 있는 라이브러리를 자동으로 설치
+  - 처음에 프로젝트를 클론한 후 터미널에 cd frontend를 입력한 후 npm i -f를 입력하면 package.json에 있는 라이브러리를 자동으로 설치
 
 ## mocks server worker
 
